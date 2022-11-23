@@ -10,14 +10,13 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 
 for (let i = 0 ; i<=100 ; i++){
       
-
-
-    if ( i % 2 == 0 ){
-        console.log('pari')
-    } else if (i % 2 == 1){
-        console.log('dispari')
+    
+    if ( i % 3 == 0 ){
+        console.log('Fizz')
+    } else if (i % 5 == 0){
+        console.log('Buzz')
     } else {
-        console.log ('5')
+        console.log (i)
     }
    
   }   

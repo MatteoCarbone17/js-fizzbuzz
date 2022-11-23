@@ -8,15 +8,16 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 
 
 
+for (let i = 0 ; i<=100 ; i++){
+      
 
-for (let i=1 ; i<=100 ; i++){
-    
-    if ( i % 3 ){
-        console.log('fizz')
-    } else if (i % 5 ){
-        console.log('buzz')
+
+    if ( i % 2 == 0 ){
+        console.log('pari')
+    } else if (i % 2 == 1){
+        console.log('dispari')
     } else {
-        console.log (i)
+        console.log ('5')
     }
    
   }   
